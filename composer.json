@@ -15,9 +15,9 @@
 
     "require": {
         "php":  ">=5.3.2",
-        "dantoncancella/dms-filter": "~2.1"
+        "dantoncancella/dms-filter": "~2"
     },
-    
+
     "repositories": [
         {
             "type": "vcs",
