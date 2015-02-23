@@ -40,4 +40,13 @@ class ContainerAwareLoader extends FilterLoader implements ContainerAwareInterfa
         return $this->container->get($filterIdentifier);
     }
 
+    /**
+     * Load Doctrine Entity Manager and return
+     *
+     * @return \Doctrine\ORM\EntityManager
+     */
+    public function getEntityManager()
+    {
+        return $this->container->get('doctrine.orm.entity_manager');
+    }
 }
